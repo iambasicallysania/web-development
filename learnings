@@ -36,3 +36,25 @@ here lang is a attribute that is telling that which language we are using taht i
 // heading tag
 
 there are avrious tyoe of heading tag starying grom h1 to h6 where h1 represent the largest heading and h6 represent the smallest heading 
+
+<br> → Line break
+<hr> → Horizontal line
+<img> → Displays an image
+<input> → Input field
+
+<Bold Tag
+
+Used to make text bold.
+<b>This text is bold</b>
+
+Italic Tag
+
+Used to make text italic.
+
+<i>This text is italic</i>
+
+What are semantic tags in HTML?
+
+Answer:
+Semantic tags are HTML tags that clearly describe the purpose of the content they contain. Examples include <header>, <nav>, <section>, <article>, <aside>, <main>, and <footer>. They improve readability, accessibility, and SEO.
+
