@@ -1,0 +1,32 @@
+.outerdiv{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+    border:double;
+    padding:10px;
+    padding-left:20px;
+
+}
+.in1{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color:red;
+    margin-bottom:10px;
+}
+.in2{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color:yellow;
+    margin-bottom:10px;
+}
+.in3{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color:green;
+}

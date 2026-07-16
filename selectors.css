@@ -1,0 +1,41 @@
+h1{
+    color:#B92B27;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #B92B27;
+    color:white;
+}
+.upvote{
+    background-color: darkseagreen;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+h3:hover{
+    color: #B92B27;
+    text-decoration: underline;
+}
+nav a{
+
+    color:palevioletred
+}
+button:active{
+    background-color: #B92B27;
+}
+p:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+p>a{
+    background-color: yellow;
+}
+li:nth-child(2){
+    color:red;
+}

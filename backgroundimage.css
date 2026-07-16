@@ -1,0 +1,16 @@
+div{
+    height: 400px;
+    width: 600px;
+    background-color: #61ab37;
+    margin:10px auto;
+    background-image: url("orange.avif");
+    /* background-size:contain; */
+    background-size:cover;
+
+/*     
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px; */
+
+}

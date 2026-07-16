@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+}
+h1{
+    /* border-width: 2px;
+    border-style:dashed;
+    border-color:red; */
+    /*border shorthand*/
+
+    border:10px solid rgb(155, 56, 155);
+    padding-left: 80px;
+    width:200px;
+    border-radius:15px;
+}
+button:hover{
+    
+    border-width: 4px;
+    border-style:double;
+    border-color:chartreuse;
+    background-color:lightblue;
+    color:black;
+    padding:10px;
+
+}

@@ -1,0 +1,48 @@
+.parent {
+    height: 200px;
+    width: 200px;
+  position: relative;
+  background: black;
+}
+
+.box2 {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background: pink;
+}
+.box22{
+    position: relative;
+    top: 2px;
+    left: 30px;
+    background: red;
+}
+.box222{
+    position: static;
+    top: 2px;
+    left: 30px;
+    background: yellow;
+}
+.box44{
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    
+}
+.box55{
+    position: sticky;
+    top: 20px;
+    left: 30px;
+    background: blue;
+}
+
+    h1 {
+    position: sticky;
+    top: 0;
+}
+.box55{
+    position: sticky;
+    top: 20px;
+    left: 30px;
+    background: blue;
+    
