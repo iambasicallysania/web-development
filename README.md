@@ -1,1 +1,1 @@
-here are all my learning.
+here are all my learnings.
