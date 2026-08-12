@@ -1,0 +1,79 @@
+// Boolean in JavaScript 🔵
+
+// Boolean ek data type hai jisme sirf 2 values hoti hain:
+
+// true
+// false
+// Example
+// let isLoggedIn = true;
+// let isAdmin = false;
+
+// Yahan:
+
+// true → yes / correct / on
+// false → no / incorrect / off
+// Boolean ka use kahan hota hai?
+
+// Mostly conditions mein.
+
+// let age = 23;
+
+// console.log(age >= 18);
+
+// Output:
+
+// true
+
+// Kyuki 23 >= 18 correct hai.
+
+// Similarly:
+
+// let age = 15;
+
+// console.log(age >= 18);
+
+// Output:
+
+// false
+// Comparison se Boolean milta hai
+// 10 > 5       // true
+// 10 < 5       // false
+// 10 === 10    // true
+// 10 === "10"  // false
+// Boolean variable
+// let isStudent = true;
+
+// if (isStudent) {
+//     console.log("You are a student");
+// }
+
+// Output:
+
+// You are a student
+
+// Yahan if check kar raha hai ki isStudent ki value true hai ya nahi.
+
+// ⭐ Important: Truthy & Falsy
+
+// JavaScript mein kuch values automatically false behave karti hain:
+
+// false
+// 0
+// ""
+// null
+// undefined
+// NaN
+
+// Inhe falsy values kehte hain.
+
+// Baaki most values truthy hoti hain, jaise:
+
+// true
+// 1
+// "hello"
+// []
+// {}
+
+// Short mein:
+
+// Boolean = true ya false, aur iska main use conditions aur decision making mein hota hai.

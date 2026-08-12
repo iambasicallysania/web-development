@@ -1,0 +1,76 @@
+TypeScript kya hai? 💙
+
+TypeScript (TS) JavaScript ka superset hai.
+Matlab TypeScript mein JavaScript ka almost saara code likh sakte ho, but TypeScript usme static type checking add karta hai.
+
+Simple way:
+
+JavaScript + Types = TypeScript
+
+JavaScript mein:
+let age = 23;
+age = "Sania";
+
+JavaScript ise allow kar deti hai.
+
+TypeScript mein:
+
+let age: number = 23;
+
+age = "Sania"; // ❌ Error
+
+Kyuki humne pehle hi bola hai ki age sirf number hoga.
+
+TypeScript kyu use karte hain?
+
+Bade projects mein code ko:
+
+🐛 Errors jaldi find karne ke liye
+🧠 Code ko samajhna easier banane ke liye
+🔒 Types ko safe rakhne ke liye
+👥 Team mein kaam karna easier banane ke liye
+🛠️ Better autocomplete/editor support ke liye
+
+use kiya jata hai.
+
+JavaScript vs TypeScript
+JavaScript	TypeScript
+Dynamically typed	Statically typed
+.js file	.ts file
+Types optional nahi hote	Types specify kar sakte ho
+Browser directly run karta hai	Usually JS mein compile/transpile hota hai
+Small + large projects	Especially large projects mein useful
+Example
+
+JavaScript:
+
+function add(a, b) {
+    return a + b;
+}
+
+TypeScript:
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+Yahan:
+
+a: number
+b: number
+
+batata hai ki a aur b numbers hone chahiye.
+
+Aur:
+
+): number
+
+batata hai ki function number return karega.
+
+Tumhare liye abhi kya important hai?
+
+Tum JavaScript abhi start kar rahi ho, toh TypeScript abhi start karne ki zarurat nahi hai.
+
+Pehle JavaScript strong karo → DOM → events → arrays/objects → functions → async JS → APIs.
+
+Uske baad TypeScript karna kaafi easy lagega. ❤️

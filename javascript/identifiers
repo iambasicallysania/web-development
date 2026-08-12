@@ -1,0 +1,60 @@
+JavaScript Identifier Rules 🧠
+
+Identifier basically kisi variable, function, object etc. ka naam hota hai.
+
+Example:
+
+let name = "Sania";
+
+Yahan name identifier hai.
+
+✅ Rules
+
+1. Letters, digits, _ aur $ use kar sakte ho
+
+let name = "Sania";
+let age23 = 23;
+let user_name = "Sania";
+let $price = 500;
+
+2. Identifier number se start nahi ho sakta ❌
+
+let 123name = "Sania"; // ❌
+
+Lekin number baad mein aa sakta hai:
+
+let name123 = "Sania"; // ✅
+
+3. Spaces allowed nahi hain ❌
+
+let first name = "Sania"; // ❌
+
+Instead:
+
+let firstName = "Sania"; // ✅
+
+4. Special characters allowed nahi hain ❌
+
+let user-name = "Sania"; // ❌
+
+- identifier ka part nahi ho sakta.
+
+Use:
+
+let userName = "Sania"; // ✅
+
+5. JavaScript keywords use nahi kar sakte
+
+let let = 10;       // ❌
+let class = "A";    // ❌
+let function = 20;  // ❌
+
+Examples of keywords:
+
+let, const, var, if, else, for, while, function, return, class etc.
+
+6. JavaScript identifiers are case-sensitive ⭐
+
+let name = "Sania";
+let Name = "Anu";
+
