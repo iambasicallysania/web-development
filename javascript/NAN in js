@@ -1,0 +1,53 @@
+// NaN in JavaScript
+
+// NaN ka full form hai Not a Number.
+
+// Jab JavaScript ko kisi operation ka valid number result nahi milta, tab NaN aa sakta hai.
+
+// Example:
+
+// let x = "hello" / 2;
+
+// console.log(x);
+
+// Output:
+
+// NaN
+
+// Kyuki "hello" ko 2 se divide nahi kar sakte.
+
+// Kuch aur examples:
+// 10 / "hello"    // NaN
+// Math.sqrt(-1)   // NaN
+// Number("abc")   // NaN
+// Important point ⭐
+
+// NaN ka data type JavaScript mein number hi hota hai:
+
+// typeof NaN
+
+// Output:
+
+// "number"
+
+// Thoda weird lagta hai 😂, but ye JavaScript ka behaviour hai.
+
+// NaN ko check kaise karein?
+
+// Best way:
+
+// Number.isNaN(x)
+
+// Example:
+
+// let x = "hello" / 2;
+
+// console.log(Number.isNaN(x));
+
+// Output:
+
+// true
+
+// Yaad rakho:
+
+// NaN = calculation ka result valid number nahi hai.

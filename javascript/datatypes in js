@@ -1,0 +1,144 @@
+// ata type basically batata hai ki variable ke andar kis type ka data store hai.
+
+// JavaScript mein mainly 2 categories hoti hain:
+
+// 1. Primitive Data Types
+
+// JavaScript ke 7 primitive data types hain:
+
+// ① Number
+
+// Numbers ke liye:
+
+// let age = 23;
+// let price = 499.99;
+
+// Integer aur decimal dono Number hain.
+
+// ② String
+
+// Text ke liye:
+
+// let name = "Sania";
+// let city = 'Bhopal';
+
+// String ko " " ya ' ' ke andar likhte hain.
+
+// ③ Boolean
+
+// Sirf true ya false:
+
+// let isLoggedIn = true;
+// let isAdult = false;
+
+// Mostly conditions mein use hota hai.
+
+// ④ Undefined
+
+// Jab variable declare kiya hai but value assign nahi ki:
+
+// let x;
+
+// console.log(x);
+
+// Output:
+
+// undefined
+// ⑤ Null
+
+// Jab hum intentionally batana chahte hain ki abhi koi value nahi hai:
+
+// let selectedSong = null;
+
+// undefined → value assign nahi hui.
+
+// null → humne intentionally empty value rakhi.
+
+// ⑥ BigInt
+
+// Bahut bade integers ke liye:
+
+// let bigNumber = 123456789012345678901234567890n;
+
+// End mein n lagta hai.
+
+// Usually beginner projects mein iska use bahut kam hota hai.
+
+// ⑦ Symbol
+
+// Unique identifiers banane ke liye:
+
+// let id = Symbol("id");
+
+// Ye bhi comparatively advanced concept hai.
+
+// 2. Non-Primitive / Reference Data Type
+
+// Beginner level par sabse important:
+
+// Object
+
+// Multiple values ko ek saath store kar sakte ho:
+
+// let student = {
+//     name: "Sania",
+//     age: 23,
+//     marks: 85
+// };
+
+// Yahan student ek object hai.
+
+// Object ke andar:
+
+// name → "Sania"
+// age  → 23
+// marks → 85
+// Array
+
+// Multiple values ko list ke form mein store karne ke liye:
+
+// let fruits = ["Apple", "Mango", "Banana"];
+
+// Technically JavaScript mein Array bhi object type ka hi special form hai.
+
+// 🧠 Ek table yaad kar lo
+// Data Type	Example
+// Number	let age = 23
+// String	let name = "Sania"
+// Boolean	let pass = true
+// Undefined	let x
+// Null	let x = null
+// BigInt	123456789n
+// Symbol	Symbol("id")
+// Object	{name: "Sania"}
+// Array	["Apple", "Mango"]
+// Ek useful cheez: typeof
+
+// JavaScript mein kisi value ka type check kar sakti ho:
+
+// typeof 23
+
+// Output:
+
+// "number"
+// typeof "Sania"
+
+// Output:
+
+// "string"
+// typeof true
+
+// Output:
+
+// "boolean"
+// typeof undefined
+
+// Output:
+
+// "undefined"
+
+// Ek interesting exception:
+
+// typeof null
+
+// ka output "object" aata hai. Ye JavaScript ka old historical quirk hai, isliye abhi bas yaad rakhna ki null actually null value hai, despite typeof null returning "object".

@@ -1,0 +1,58 @@
+// Agar tum JavaScript ke variables padh rahi ho, toh shayad tumne "Java" type kar diya 😄
+
+// Variable kya hota hai?
+
+// Variable ek container/box ki tarah hota hai jisme hum data store karte hain.
+
+// Example:
+
+// let name = "Sania";
+// let age = 23;
+// let marks = 85;
+
+// Yahan:
+
+// name → variable
+// "Sania" → value
+// age → variable
+// 23 → value
+
+// So simple:
+
+// Variable = ek naam diya hua container jisme value store hoti hai.
+
+// JavaScript mein variables banane ke 3 ways
+// 1. let
+
+// Jab value future mein change ho sakti hai:
+
+// let age = 23;
+// age = 24;
+// 2. const
+
+// Jab value ko reassign nahi karna:
+
+// const pi = 3.14;
+
+// Ye nahi kar sakte:
+
+// pi = 4; // error
+// 3. var
+
+// Ye JavaScript ka purana way hai:
+
+// var name = "Sania";
+
+// Aajkal generally let aur const prefer kiye jaate hain.
+
+// Ek important difference
+// let age = 23;
+// age = 24;       // ✅ allowed
+
+// const name = "Sania";
+// name = "Anu";   // ❌ not allowed
+
+// Beginner rule:
+// 👉 const use karo by default.
+// 👉 Jab value change karni ho, let use karo.
+// // 👉 var ko abhi avoid karna better hai.

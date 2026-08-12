@@ -1,0 +1,117 @@
+unary operators
+Unary Operators in JavaScript
+
+Unary operator wo operator hota hai jo sirf ONE operand/value ke saath kaam karta hai.
+
+Example:
+
+let x = 5;
+-x
+
+Yahan - sirf x ke saath kaam kar raha hai → isliye unary operator.
+
+Common Unary Operators
+1. ++ Increment
+
+Value ko 1 se increase karta hai:
+
+let x = 5;
+
+x++;
+console.log(x);
+
+Output:
+
+6
+2. -- Decrement
+
+Value ko 1 se decrease karta hai:
+
+let x = 5;
+
+x--;
+console.log(x);
+
+Output:
+
+4
+3. Unary -
+
+Number ka sign change karta hai:
+
+let x = 10;
+
+console.log(-x);
+
+Output:
+
+-10
+
+Aur:
+
+let x = -10;
+
+console.log(-x);
+
+Output:
+
+10
+4. Unary +
+
+Value ko number mein convert karne ki koshish karta hai:
+
+let x = "10";
+
+console.log(+x);
+
+Output:
+
+10
+
+Lekin:
+
+let x = "hello";
+
+console.log(+x);
+
+Output:
+
+NaN
+5. typeof
+
+Kisi value ka data type check karta hai:
+
+let name = "Sania";
+
+console.log(typeof name);
+
+Output:
+
+string
+6. ! NOT
+
+Boolean value ko reverse karta hai:
+
+let isLoggedIn = true;
+
+console.log(!isLoggedIn);
+
+Output:
+
+false
+🧠 Yaad rakhna
+
+Unary = one operand
+
+-x       → one
+++x      → one
+--x      → one
+!x       → one
+typeof x → one
++x       → one
+
+Whereas:
+
+x + y
+
+mein 2 operands hain, isliye + yahan binary operator hai.

@@ -1,0 +1,74 @@
+// Haan, JavaScript me Hoisting ko simple way me samjho 👇
+
+// Hoisting kya hoti hai?
+
+// Hoisting ka matlab hai JavaScript execution se pehle declarations ko process karti hai, jiski wajah se kuch variables/functions ko code me declaration se pehle bhi access kiya ja sakta hai.
+
+// Lekin var, let, const aur functions ke case me behaviour alag hota hai.
+
+// 1. var — hoist hota hai
+// console.log(a);
+
+// var a = 10;
+
+// Output:
+
+// undefined
+
+// JavaScript internally roughly is tarah treat karti hai:
+
+// var a;
+
+// console.log(a);
+
+// a = 10;
+
+// Isliye error nahi aaya, bas undefined mila.
+
+// 2. let — hoist hota hai, but access nahi kar sakte
+// console.log(a);
+
+// let a = 10;
+
+// ❌ Error:
+
+// ReferenceError
+
+// Same const ke saath:
+
+// console.log(a);
+
+// const a = 10;
+
+// ❌ ReferenceError
+
+// let aur const declaration se lekar initialization tak Temporal Dead Zone (TDZ) me hote hain.
+
+// 3. Function declaration
+
+// Function declarations ko bhi hoist kiya jata hai:
+
+// hello();
+
+// function hello() {
+//     console.log("Hello!");
+// }
+
+// Output:
+
+// Hello!
+
+// Ye kaam karta hai. ✅
+
+// Ek table yaad kar lo 🧠
+// Declaration	Hoisted?	Declaration se pehle access?
+// var	✅	✅ → undefined
+// let	✅	❌ TDZ
+// const	✅	❌ TDZ
+// Function declaration	✅	✅
+
+// Exam/interview wali one-liner:
+
+// Hoisting is JavaScript's behavior where declarations are processed before the code is executed.
+
+// Aur ek important point: hoisting ka matlab literally code ko upar move karna nahi hai. Ye JavaScript ke creation/execution phases ko samajhne ka simplified way hai.

@@ -1,0 +1,78 @@
+// Operator Precedence in JavaScript
+
+// Operator precedence ka matlab hai:
+
+// Jab ek expression mein multiple operators hote hain, toh JavaScript kis operator ko pehle execute karegi.
+
+// Bilkul maths ke BODMAS jaisa. 👇
+
+// Example
+// let result = 10 + 5 * 2;
+
+// Agar left-to-right simply calculate karein:
+
+// 10 + 5 = 15
+// 15 * 2 = 30 ❌
+
+// Lekin JavaScript mein * ki precedence + se higher hai.
+
+// Isliye:
+
+// 5 * 2 = 10
+// 10 + 10 = 20
+
+// So:
+
+// console.log(10 + 5 * 2);
+
+// Output:
+
+// 20
+// Common precedence order 🧠
+
+// High → Low:
+
+// () Parentheses
+// ** Exponent
+// * / %
+// + -
+// < > <= >=
+// == === != !==
+// &&
+// ||
+// =, +=, -=
+// Example with parentheses
+// let x = (10 + 5) * 2;
+
+// Sabse pehle parentheses:
+
+// 10 + 5 = 15
+
+// Then:
+
+// 15 * 2 = 30
+
+// Output:
+
+// 30
+// Ek aur example
+// let result = 10 + 20 / 5;
+
+// / pehle:
+
+// 20 / 5 = 4
+// 10 + 4 = 14
+
+// So result:
+
+// 14
+// ⭐ Important
+
+// Agar kabhi confusion ho ki kaunsa operator pehle chalega, parentheses () use kar do:
+
+// let result = (10 + 20) / 5;
+
+// Isse code bhi easy to understand hota hai.
+
+// Short trick:
+// () → ** → * / % → + - → comparison → logical → assignment.

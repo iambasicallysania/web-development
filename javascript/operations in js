@@ -1,0 +1,154 @@
+// 1. Arithmetic Operators ➕➖✖️
+
+// Mathematical calculations ke liye:
+
+// let a = 10;
+// let b = 3;
+
+// a + b   // 13
+// a - b   // 7
+// a * b   // 30
+// a / b   // 3.333...
+// a % b   // 1
+// a ** b  // 1000
+
+// % → remainder deta hai.
+
+// Example:
+
+// 10 % 3
+
+// Output:
+
+// 1
+
+// ** → power/exponent:
+
+// 2 ** 3
+
+// Output:
+
+// 8
+// 2. Assignment Operators
+
+// Variable ko value assign/update karne ke liye:
+
+// let x = 10;
+
+// x += 5;  // 15
+// x -= 3;  // 12
+// x *= 2;  // 24
+// x /= 4;  // 6
+
+// Basically:
+
+// x += 5;
+
+// same as:
+
+// x = x + 5;
+// 3. Comparison Operators
+
+// Do values ko compare karne ke liye. Result true/false hota hai.
+
+// 10 > 5    // true
+// 10 < 5    // false
+// 10 >= 10  // true
+// 10 <= 9   // false
+// == vs === ⭐
+
+// Ye bahut important hai.
+
+// 5 == "5"
+
+// Output:
+
+// true
+
+// Because == type conversion kar sakta hai.
+
+// But:
+
+// 5 === "5"
+
+// Output:
+
+// false
+
+// Because === value + data type dono check karta hai.
+
+// 👉 Generally JavaScript mein === prefer karo.
+
+// 4. Logical Operators
+
+// Conditions combine karne ke liye.
+
+// AND &&
+
+// Dono conditions true honi chahiye:
+
+// let age = 23;
+
+// age > 18 && age < 30
+
+// Output:
+
+// true
+// OR ||
+
+// Koi ek condition true ho:
+
+// age < 18 || age > 20
+
+// Output:
+
+// true
+// NOT !
+
+// True ko false aur false ko true karta hai:
+
+// !true
+
+// Output:
+
+// false
+// 5. Increment / Decrement
+// Increment ++
+
+// Value ko 1 se increase:
+
+// let x = 5;
+
+// x++;
+// console.log(x);
+
+// Output:
+
+// 6
+// Decrement --
+
+// 1 se decrease:
+
+// x--;
+// 🧠 Short mein yaad rakho
+// Operator	Meaning
+// +	Addition
+// -	Subtraction
+// *	Multiplication
+// /	Division
+// %	Remainder
+// **	Power
+// =	Assignment
+// ==	Loose equality
+// ===	Strict equality
+// >	Greater than
+// <	Less than
+// >=	Greater/equal
+// <=	Less/equal
+// &&	AND
+// `	
+// !	NOT
+// ++	Increase by 1
+// --	Decrease by 1
+
+// Tum abhi basics kar rahi ho, toh +, -, *, /, %, ===, &&, ||, ! aur ++/-- pe especially practice karo.
